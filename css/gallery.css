@@ -1,0 +1,222 @@
+/* NOUREDDINE NAFZAOUI CSS */
+body{
+    background-color:#282727;
+}
+
+.redBanner{
+    width:100%;
+    height:200px;
+    background-color: #B32137;
+    color:white;
+}
+.redBanner h3{
+    margin-top: 25px;
+    color:white;
+    font-size: 20px;
+}
+
+#searchInput{
+    width:360px;
+    height:40px;
+    margin-top: 92px;
+    border:none;
+    box-shadow: 0px 0px 6px rgb(202, 202, 202);
+}
+.sectionOne{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sectionOne div{
+    height:500px;
+}
+#searchSec{
+    display: flex;
+    justify-content: center;
+}
+#searchSec i {
+    margin-top: 90px;
+    font-size: 32px;
+    color:white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.colOne{
+    display:flex;
+    flex-direction: column;
+    width:  20%;
+    transition: width 2s;
+}
+.colTwo{
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    transition: width 2s;
+}
+.col4{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    transition: width 2s;
+}
+.manga{
+    display:flex;
+    width:100%;
+}
+.manga img {
+    width:50%;
+}
+.imgContainer{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    margin-top: 190px;
+}
+/* .cover:hover{
+    transition: scale(1.1);
+} */
+.blank{
+    height:300px;
+}
+.book{
+    display:flex;
+    justify-content: center;
+}
+
+.book img{
+    width:220px;
+    height:300px;
+    border-radius:5px;
+}
+.book div h3 , h5{
+    color:white;
+}
+.book div h3 {
+    margin-top: 10px;
+}
+.grid-container {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+.stars{
+    color:#FFB300;
+}
+.headerHolder{
+    width:100%;
+    height: 1000px;
+}
+#videoOverlay{
+    background-color: #282727;
+    width:100%;
+    height:115vh;
+    position: absolute;
+    opacity:0.6;
+}
+.headerVideo{
+    margin-bottom: 150px;
+    width:100%;
+}
+
+.headerText{
+    position: absolute;
+    color:white;
+    text-align: center;
+    z-index: 2;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Chivo', sans-serif;
+}
+.headerText h1{
+    color:white;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 80px;
+    font-weight: 800;
+}
+@media only screen and (min-width:1813px){
+    #videoOverlay{
+        height:117vh;
+    }
+}
+@media only screen and (max-width: 1024px) {
+      
+    .headerText h1{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .headerVideo{
+        margin-bottom: 10px;
+    }
+    .headerHolder{
+        height:600px;
+    }
+    #videoOverlay{
+        height:580px;
+    }
+    .grid-container {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        grid-gap: 2px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .sectionOne{
+        display:flex;
+        justify-content: center;
+    }
+    #searchInput{
+        width:225px;
+        height:30px;
+        margin-top: 92px;
+    }
+    .sectionOne div{
+        height:200px;
+    }
+    .book img{
+        width:70px;
+        height:110px;
+    }
+    .book div h3 , h5{
+        font-size: 10px;
+    }
+    
+    .stars{
+        font-size: 6px;
+    }
+    video{
+        display:none;
+    }
+    .headerText{
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    .headerText h1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    #videoOverlay{
+        height:200px;
+    }
+    .headerHolder{
+        height:300px;
+    }
+    .headerVideo{
+        height:300px;
+    }
+    .grid-container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        grid-gap: 4px;
+    }
+  }
+  
